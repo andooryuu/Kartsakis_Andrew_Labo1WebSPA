@@ -1,0 +1,51 @@
+.bookmarkRow {
+    padding: 8px;
+    padding-bottom: 0px;
+    scroll-snap-align: start;
+}
+
+.bookmarkContainer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: top;
+    background-color: rgb(215, 217, 222);
+    border-radius: 6px;
+}
+
+
+.bookmarkContainer .cmdIcon {
+    display: none;
+}
+
+.bookmarkContainer:hover .cmdIcon {
+    display: block;
+}
+
+.bookmarkLayout {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 8px;
+    align-items: center;
+}
+
+.bookmarkTitre {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(13, 13, 13);
+}
+
+.bookmarkCategorie {
+    color: rgb(71, 59, 232);
+}
+
+.bookmarkCommandPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.bookmarkdeleteForm {
+    margin: 20px;
+}
